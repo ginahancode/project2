@@ -44,7 +44,7 @@ https://github.com/Rob--W/cors-anywhere
 - A database connection needs to be established. Proper credentials must be provided in the `/project2-server/src/main/resources` directory.
 
 - A Twitch API account (https://dev.twitch.tv/login) must be set up, prodviding credentials in the headers for requests in the proper service classes on the front end, 
-in `C:\Users\Kacper\Desktop\env\repo reflection\project2\project2-client\src\app`. More info about how to set up the Twitch link can be found here: https://api-docs.igdb.com/#account-creation
+in `\project2\project2-client\src\app`. More info about how to set up the Twitch link can be found here: https://api-docs.igdb.com/#account-creation
 
 ## Contributors
 
