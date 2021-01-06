@@ -1,0 +1,37 @@
+<p>display works!</p>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+
+    <input formControlName="userInput" placeholder="search for a game by title..."/>
+    <button class="button" type="submit" value="test" >Search</button>
+  
+</form>
+
+
+
+
+<div *ngIf="pokeList">
+    <ul>
+        <li *ngFor="let game of pokeList">
+            <p>{{game.name}}</p> <br/>
+            <p>{{game.cover.url}}</p> <br/>
+            <img src='https:{{game.cover.url}}'/>
+            <!-- release_dates.human, release_dates.platform.name, release_dates.region, platforms.name -->
+            <!-- we want game title, cover art, release date, platform-->
+            <!-- add button for each result, pass 'game' forward-->
+            <button (click)="buttonDo(game.id)">Click Me!</button>
+        </li>
+        <br/>
+    </ul>
+</div>
+
+<div *ngIf="postList">
+    <p>yo</p>
+    <ul>
+    <!-- <div [(ngModel)]="postList"> -->
+        <li *ngFor="let game of postList">
+            <p>{{game.title}}</p>
+        </li>
+    </ul>
+    <!-- </div> -->
+</div>

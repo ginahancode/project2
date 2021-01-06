@@ -1,0 +1,86 @@
+<div class="navbar navbar-inverse navbar-fixed-left">
+  <ul class="nav navbar-nav">
+    <span style="font-size: 1.5rem; color: white; text-align:center; padding: 7px;">
+
+      <li>
+        <i class="fa fa-home" (click)="goHome()" title="Home" aria-hidden="true"></i>
+      </li>
+      <li>
+        <i class="fa fa-users" (click)="goToSocials()" title="Social" aria-hidden="true"></i>
+      </li>
+      <li>
+
+        <i class="fa fa-user" (click)="goUserInfo()" title="My Information" aria-hidden="true"></i>
+
+      </li>
+      <li>
+        <!-- <a href="path_to_file" download="proposed_file_name"><i (click)="makeFile()" class="fa fa-download" aria-hidden="true"></i></a> -->
+        <!-- <i class="fa fa-download" aria-hidden="true"></i> -->
+      </li>
+      <li>
+
+        <i class="fa fa-sign-out" (click)="logout()" title="Logout" aria-hidden="true"></i>
+
+      </li>
+    </span>
+  </ul>
+</div>
+
+<app-banner></app-banner>
+
+
+<div class="home-container">
+
+  <div *ngIf="masterPostList.length == 0">
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, {{currentUser.firstName}}!</h1>
+      <!--User replaced with the current user-->
+      <p class="lead">Game Probe is a platform where user's are able to provide their own testimonials about video
+        games
+        they have encoutered
+      </p>
+      <hr class="my-4">
+      <p>Simply search for a game, add a review and keep all of your reviews organized in one place!</p>
+      <p class="lead">
+        <app-search-results (eventClicked)="childEventClicked($event)"></app-search-results>
+      </p>
+
+    </div>
+  </div>
+
+  <nav ngbNav #nav="ngbNav" class="nav-tabs">
+    <ng-container ngbNavItem *ngFor="let status of statuses">
+      <a class="filter-nav-links" ngbNavLink>{{status}}</a>
+      <ng-template ngbNavContent>
+        <!--Post components-->
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="m-4 py-3">List of {{status}}</h2>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="m-4 py-3 text-right" style="margin-right: 60px;"></h2>
+          </div>
+        </div>
+        <app-post-container [newGame]="clickedEvent" [containerStatus]="status" [postList]="masterPostList">
+          <!-- <p *ngFor="let game of postList" [game]="postList">
+                  
+                      </p> -->
+        </app-post-container>
+      </ng-template>
+    </ng-container>
+  </nav>
+
+
+  <div [ngbNavOutlet]="nav" class="mt-2"></div>
+</div>
+
+<!-- hava a switch-case container layout for different statuses.. maybe pipes??-->
+
+
+
+<!-- <button class="btn btn-danger" (click)="logout()">Logout</button> -->
+
+
+
+
+<hr>

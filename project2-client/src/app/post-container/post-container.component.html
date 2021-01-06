@@ -1,0 +1,50 @@
+<div class="row" id="sortButtons">
+    <h5 id="sortTitle">Sort By: </h5>
+    <div *ngIf="userScoreSort; else notUserScoreSort">
+        <button (click)="sortList('userScore')" id="btnSort" class="btn btn-warning orange-back"><span>User Score <i
+                    class="fa fa-arrow-down" aria-hidden="true"></i>
+            </span></button>
+    </div>
+    <ng-template #notUserScoreSort>
+        <button (click)="sortList('userScore')" id="btnSort" class="btn btn-warning orange-back"><span>User Score <i
+                    class="fa fa-arrow-up" aria-hidden="true"></i>
+            </span></button>
+    </ng-template>
+
+    <div *ngIf="scoreSort; else notScoreSort">
+        <button (click)="sortList('score')" id="btnSort" class="btn btn-warning orange-back"><span>Critic Score <i
+                    class="fa fa-arrow-down" aria-hidden="true"></i>
+            </span></button>
+    </div>
+    <ng-template #notScoreSort>
+        <button (click)="sortList('score')" id="btnSort" class="btn btn-warning orange-back"><span>Critic Score <i
+                    class="fa fa-arrow-up" aria-hidden="true"></i>
+            </span></button>
+    </ng-template>
+
+    <div *ngIf="alphSort; else notAlphSort">
+        <button (click)="sortList('title')" id="btnSort" class="btn btn-warning orange-back"><span>Alphabetically <i
+                    class="fa fa-arrow-down" aria-hidden="true"></i>
+            </span></button>
+    </div>
+    <ng-template #notAlphSort>
+        <button (click)="sortList('title')" id="btnSort" class="btn btn-warning orange-back"><span>Alphabetically <i
+                    class="fa fa-arrow-up" aria-hidden="true"></i>
+            </span></button>
+    </ng-template>
+
+
+<!-- 
+    <button (click)="sortList('userScore')" id="btnSort" class="btn btn-outline-success">User Score (ASC)</button>
+    <button (click)="sortList('title')" id="btnSort" class="btn btn-outline-success">Alphabetically (DESC)</button> -->
+</div>
+
+<div class="row">
+    <div class="col-12" id="posts">
+        <!-- <button (click)="sortList('score')">sort by critic score (asc)</button>
+        <button (click)="sortList('userScore')">sort by user score (asc)</button>
+        <button (click)="sortList('title')">sort alphabetically (asc)</button> -->
+        <app-post *ngFor="let game of postList" [game]="game" (eventClicked2)="childEventClicked($event)">
+        </app-post>
+    </div>
+</div>

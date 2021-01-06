@@ -1,0 +1,106 @@
+<div class="container">
+    <div class="row">
+        <!-- <div class="col-sm-10 col-md-8 col-lg-6 img-responsive center-block"> -->
+        <img id="logo" class="center" src="../../assets/images/min_logo.png" />
+        <!-- </div> -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4"></div>
+        <div class=" center col-md-4 m-4 mt-2">
+            <div [hidden]="submitted">
+                <form [formGroup]="registeruserform" #saveuser (ngSubmit)="saveUser(saveUser)" class="center">
+                    <div class="form-group center">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" formControlName="firstName" data-toggle="tooltip"
+                            data-placement="right" title="Enter First Name" placeholder="First Name">
+                        <div class="alert alert-danger" *ngIf="(FirstName.touched) && (FirstName.invalid)" style="margin-top: 5px;">
+                            <span *ngIf="FirstName.errors.required">First Name is Required</span>
+                            <span *ngIf="FirstName.errors.minlength">
+                                MinLength Error
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName">Last Name</label>
+                        <input type="text" class="form-control" formControlName="lastName" data-toggle="tooltip"
+                            data-placement="right" title="Enter Last Name" placeholder="Last Name">
+                        <div class="alert alert-danger" *ngIf="(LastName.touched) && (LastName.invalid)" style="margin-top: 5px;">
+                            <span *ngIf="LastName.errors.required">Last Name is Required</span>
+                            <span *ngIf="LastName.errors.minlength">
+                                MinLength Error
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" formControlName="username" data-toggle="tooltip"
+                            data-placement="right" title="Enter Username" placeholder="Username">
+                        <div class="alert alert-danger" *ngIf="(Username.touched) && (Username.invalid)" style="margin-top: 5px;">
+                            <span *ngIf="Username.errors.required">Username is Required</span>
+                            <span *ngIf="Username.errors.minlength">
+                                MinLength Error
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" formControlName="password" data-toggle="tooltip"
+                            data-placement="right" title="Enter Password" placeholder="Password">
+                        <div class="alert alert-danger" *ngIf="(Password.touched) && (Password.invalid)" style="margin-top: 5px;">
+                            <span *ngIf="Password.errors.required">Password is Required</span>
+                            <span *ngIf="Password.errors.minlength">
+                                MinLength Error
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" formControlName="confirm_password" data-toggle="tooltip"
+                            data-placement="right" title="Enter Password Confirm" placeholder="Confirm Password">
+                        <div class="alert alert-danger" *ngIf="(ConfirmPassword.touched) && (ConfirmPassword.invalid)"
+                            style="margin-top: 5px;">
+                            <span *ngIf="ConfirmPassword.errors.required">Confirm your password</span>
+                            <span *ngIf="ConfirmPassword.errors.minlength">
+                                MinLength Error
+                            </span>
+                            <span *ngIf="ConfirmPassword.errors.confirmPassword">Passwords must match</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" formControlName="email" data-toggle="tooltip"
+                            data-placement="right" title="Enter user email" placeholder="Email">
+                        <div class="alert alert-danger" *ngIf="(UserEmail.touched) && (UserEmail.invalid)" style="margin-top: 5px;">
+                            <span *ngIf="UserEmail.errors.required">Email is Required</span>
+                            <span *ngIf="UserEmailerrors.email">
+                                Invalid Email Format
+                            </span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <h6 class="center mt-3"><span><a style="color: blue; cursor: pointer; text-decoration: underline;" (click)="goToLogin()">Go back</a></span></h6>
+                </form>
+            </div>
+        </div>
+    <div class="col-md-4"></div>
+ </div>
+ 
+
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div [hidden]="!submitted">
+            <h4>Thanks for registering! Login or Add another account </h4>
+            <button class="btn btn-success m-1" (click)="addUserForm()" >Add More Users</button>
+            <button class="btn btn-success m-1" (click)="btnLogin()">Return to Login</button>
+        </div>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+
+
+
+

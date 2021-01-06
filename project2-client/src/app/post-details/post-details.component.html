@@ -1,0 +1,214 @@
+<!-- <button class="btn btn-outline-primary mb-2 mr-2" (click)="openXl(content)">Details</button> -->
+<i class="fa fa-info-circle" style="font-size: 1.5rem; color: rgba(25, 0, 255, 0.658); padding: 2px;"
+  title="Game Information" aria-hidden="true" (click)="openXl(content)"></i>
+
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Game Details</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-4">
+        <img *ngIf="game.coverArt != ''" class="mb-2"
+          src="https://images.igdb.com/igdb/image/upload/t_cover_big/{{game.coverArt}}.jpg" />
+      </div>
+      <div class="col-8">
+        <h1 class="text-center pt-5 px-1">{{game.title}}</h1>
+      </div>
+    </div>
+    <ngb-accordion #acc="ngbAccordion">
+      <ngb-panel id="toggle-1" title="Review">
+        <ng-template ngbPanelContent>
+          <div class="row">
+            <div class="col-lg-10">
+
+              <div *ngIf="showAddAlert" class="alert alert-success" role="alert">
+                User review added<button (click)="showAddAlert = !showAddAlert" type="button" class="close"
+                  data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div
+                *ngIf="((game.userScore === '' || 0) || game.status === '' || game.review === '' || isPrefilled === false) && currentUser.userID == game.userID; else prefilled">
+                <form [formGroup]="userReviewForm" (ngSubmit)="updatePost(game)">
+                  <div class="row center">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="userScore">User Score</label>
+                        <div *ngIf="game.userScore == 0; else other_score">
+                          <input type="number" max="2" min="0" class="form-control" name="userScore"
+                            formControlName="userScore">
+                        </div>
+                        <ng-template #other_score>
+                          <input type="number" max="99" min="0" class="form-control" value={{game.userScore}}
+                            name="userScore" formControlName="userScore">
+                        </ng-template>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="status">Gaming Status</label>
+                        <select class="form-control" value={{game.status}} formControlName="status" name="status">
+                          <option>Currently Playing</option>
+                          <option>Completed</option>
+                          <option>On Hold</option>
+                          <option>Dropped</option>
+                          <option>Plan to Play</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="review">Review</label>
+                    <textarea class="form-control" id="review" value={{game.review}} formControlName="review"
+                      name="review" rows="4"></textarea>
+                  </div>
+                  <button class="btn btn-success" type="submit">Add Review</button>
+                </form>
+
+
+              </div>
+              <ng-template #prefilled>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="row center">
+                      <div class="col-5">
+                        <h5>User Score</h5>
+                        <div *ngIf="game.userScore != 0; else other_score">
+                          <p>{{game.userScore}}</p>
+                        </div>
+                        <ng-template #other_score>
+                          <p></p>
+                        </ng-template>
+                      </div>
+                      <div class="col-5">
+                        <h5>Gaming Status</h5>
+                        <p>{{game.status}}</p>
+                      </div>
+                      <div class="col-2">
+                        <!-- <i class="fa fa-pencil-square-o" style="font-size: 1.1rem; color: gray"aria-hidden="true"></i> -->
+                        <i *ngIf="currentUser.userID == game.userID" class="fa fa-pencil"
+                          style="font-size: 1.5rem; color: gray" title="Edit Review" (click)="clickEdit()"
+                          aria-hidden="true"></i>
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-10 text-left">
+                        <h5 class="pt-4">Review</h5>
+                        <p>{{game.review}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="toggle-2" title="Game Information">
+        <ng-template ngbPanelContent>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Release Information</h4>
+              <p>Release Date: {{game.releaseDate}}</p>
+              <p>Release Region: {{game.releaseRegion}}</p>
+            </div>
+            <div class="col-lg-6">
+              <h4>Platforms</h4>
+              <div *ngFor="let platform of gamePlatforms">
+                <p> {{platform.name}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Genre</h4>
+              <div *ngFor="let genre of gameGenres">
+                <p> {{genre.name}}</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h4>Age Rating and Aggregate Score</h4>
+              <p>Age Rating: {{game.ageRating}}</p>
+              <p *ngIf="game.score != -1">Aggregate Score: {{game.score}}</p>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-lg-12">
+              <h4 class="mb-2">Screenshots</h4>
+
+              <ngb-carousel *ngIf="images">
+                <div *ngFor="let image of images">
+                  <ng-template ngbSlide>
+                    <div class="picsum-img-wrapper">
+                      <img class="img-fluid" [src]="image" alt="Random first slide">
+                    </div>
+                  </ng-template>
+                </div>
+                <!-- <ng-template ngbSlide>
+                  <div class="picsum-img-wrapper">
+                    <img [src]="images[1]" alt="Random second slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="picsum-img-wrapper">
+                    <img [src]="images[2]" alt="Random third slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </ng-template> -->
+              </ngb-carousel>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<!-- <ng-template #longContent let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Modal title</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+  </ng-template> -->

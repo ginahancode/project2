@@ -1,0 +1,26 @@
+app-post-container {
+    justify-content: center;
+}
+
+#posts {
+    margin-right: -33px;
+    margin-left: auto;
+}
+
+#sortTitle {
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+#sortButtons {
+    padding-left: 56px;
+    padding-bottom: 25px;
+}
+
+#btnSort {
+    margin: 0px 8px 4px 8px;
+}
+
+.orange-back {
+    background-color: rgb(255, 147, 58);
+}

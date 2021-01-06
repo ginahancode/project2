@@ -1,0 +1,341 @@
+2020-12-17 09:44:16 INFO  PersistenceConfig:62 - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:48:49.861 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:48:49.900 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:48:49.905 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:48:55.002 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:48:55.339 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:48:55.343 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:48:55.344 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:48:56.674 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:49:28.421 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:49:28.462 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:49:28.467 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:49:33.512 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:49:33.844 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:49:33.847 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:49:33.848 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:49:35.558 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:55:45.247 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:55:45.291 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:55:45.297 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:55:50.247 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:55:50.564 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:55:50.568 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:55:50.568 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:55:51.881 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:56:15.357 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:56:15.399 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:56:15.405 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:56:20.407 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:56:20.741 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:56:20.744 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:56:20.744 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:56:22.157 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:56:58.387 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:56:58.428 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:56:58.434 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:57:03.473 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 09:57:03.801 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 09:57:03.804 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 09:57:03.805 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 09:57:05.156 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 11:28:22.821 [main] App - Creating App
+[INFO ] 2020-12-17 11:28:22.856 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 11:28:22.872 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 11:28:27.015 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 12:49:39.171 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 12:49:39.218 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 12:49:39.224 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 12:49:45.851 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 12:49:46.468 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 12:49:46.472 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 12:49:46.472 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 12:49:51.619 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:16:34.856 [main] App - Creating App
+[INFO ] 2020-12-17 14:16:34.903 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:16:34.921 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:16:38.783 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:18:39.850 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:18:39.897 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:18:39.897 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:18:44.478 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:18:44.792 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:18:44.792 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:18:44.792 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:18:46.176 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:19:37.336 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:19:37.373 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:19:37.378 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:19:42.057 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:19:42.370 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:19:42.373 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:19:42.373 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:19:43.752 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:20:57.135 [main] App - Creating App
+[INFO ] 2020-12-17 14:20:57.172 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:20:57.188 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:21:01.247 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:23:11.826 [main] App - Creating App
+[INFO ] 2020-12-17 14:23:11.850 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:23:11.855 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:23:14.758 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:30:20.489 [main] App - Creating App
+[INFO ] 2020-12-17 14:30:20.516 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:30:20.521 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:30:23.440 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:32:05.598 [main] App - Creating App
+[INFO ] 2020-12-17 14:32:05.622 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:32:05.626 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:32:08.488 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:32:26.254 [main] App - Creating App
+[INFO ] 2020-12-17 14:32:26.280 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:32:26.284 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:32:29.506 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:33:36.655 [main] App - Creating App
+[INFO ] 2020-12-17 14:33:36.682 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:33:36.686 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:33:39.657 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:34:04.900 [main] App - Creating App
+[INFO ] 2020-12-17 14:34:04.950 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:34:04.970 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:34:08.509 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:41:30.023 [main] App - Creating App
+[INFO ] 2020-12-17 14:41:30.047 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:41:30.050 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:41:33.144 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:41:53.386 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:41:53.423 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:41:53.429 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:41:58.390 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:41:58.728 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 14:41:58.732 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:41:58.732 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:42:00.131 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:53:24.590 [main] App - Creating App
+[INFO ] 2020-12-17 14:53:24.614 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:53:24.618 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:53:27.544 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:55:36.680 [main] App - Creating App
+[INFO ] 2020-12-17 14:55:36.703 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:55:36.707 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:55:39.611 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:57:19.584 [main] App - Creating App
+[INFO ] 2020-12-17 14:57:19.607 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:57:19.607 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:57:22.418 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:59:24.055 [main] App - Creating App
+[INFO ] 2020-12-17 14:59:24.082 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 14:59:24.082 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 14:59:27.007 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 14:59:59.975 [main] App - Creating App
+[INFO ] 2020-12-17 15:00:00.002 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:00:00.008 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:00:02.967 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:00:44.319 [main] App - Creating App
+[INFO ] 2020-12-17 15:00:44.347 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:00:44.347 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:00:47.129 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:02:47.273 [main] App - Creating App
+[INFO ] 2020-12-17 15:02:47.291 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:02:47.298 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:02:50.110 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:07:22.146 [main] App - Creating App
+[INFO ] 2020-12-17 15:07:22.193 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:07:22.209 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:07:25.878 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:11:03.720 [main] App - Creating App
+[INFO ] 2020-12-17 15:11:03.742 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:11:03.747 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:11:06.600 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:20:03.638 [main] App - Creating App
+[INFO ] 2020-12-17 15:20:03.668 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:20:03.682 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:20:07.339 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:50:45.174 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:50:45.210 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:50:45.215 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:50:50.824 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:50:51.177 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:50:51.181 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:50:51.181 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:50:52.656 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:53:45.254 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:53:45.292 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:53:45.299 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:53:50.072 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:53:50.380 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:53:50.383 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:53:50.383 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:53:51.743 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:54:36.036 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:54:36.068 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:54:36.083 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:54:40.915 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:54:41.237 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 15:54:41.242 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:54:41.243 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:54:42.569 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:58:06.436 [main] App - Creating App
+[INFO ] 2020-12-17 15:58:06.475 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:58:06.486 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:58:09.888 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 15:58:44.749 [main] App - Creating App
+[INFO ] 2020-12-17 15:58:44.798 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 15:58:44.811 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 15:58:48.575 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 20:09:38.121 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 20:09:38.166 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 20:09:38.172 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 20:09:44.734 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 20:09:45.224 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 20:09:45.228 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 20:09:45.228 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 20:09:46.535 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:48:48.738 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 22:48:48.784 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:48:48.793 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:48:53.752 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:48:54.113 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 22:48:54.119 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:48:54.119 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:48:54.721 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:51:08.398 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 22:51:08.449 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:51:08.455 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:51:14.231 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:51:14.622 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 22:51:14.627 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:51:14.628 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:51:15.481 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:52:47.289 [main] App - Creating App
+[INFO ] 2020-12-17 22:52:47.313 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:52:47.318 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:52:50.213 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:53:49.227 [localhost-startStop-2] App - Creating App
+[INFO ] 2020-12-17 22:53:49.266 [localhost-startStop-2] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:53:49.271 [localhost-startStop-2] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:53:52.671 [localhost-startStop-2] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 22:53:52.959 [localhost-startStop-2] App - Creating App
+[INFO ] 2020-12-17 22:53:52.965 [localhost-startStop-2] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 22:53:52.965 [localhost-startStop-2] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 22:53:53.522 [localhost-startStop-2] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:05:28.918 [main] App - Creating App
+[INFO ] 2020-12-17 23:05:28.940 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:05:28.944 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:05:31.270 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:06:08.828 [localhost-startStop-3] App - Creating App
+[INFO ] 2020-12-17 23:06:08.853 [localhost-startStop-3] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:06:08.857 [localhost-startStop-3] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:06:11.165 [localhost-startStop-3] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:06:11.454 [localhost-startStop-3] App - Creating App
+[INFO ] 2020-12-17 23:06:11.458 [localhost-startStop-3] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:06:11.458 [localhost-startStop-3] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:06:11.933 [localhost-startStop-3] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:09:37.118 [main] App - Creating App
+[INFO ] 2020-12-17 23:09:37.143 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:09:37.149 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:09:39.457 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:19:07.556 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:19:07.590 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:19:07.594 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:19:10.172 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:19:10.400 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:19:10.407 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:19:10.407 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:19:10.985 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:22:16.421 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] App - Creating App
+[INFO ] 2020-12-17 23:22:16.451 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:22:16.455 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:22:18.728 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:22:19.014 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] App - Creating App
+[INFO ] 2020-12-17 23:22:19.018 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:22:19.018 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:22:19.559 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:26:04.599 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:26:04.622 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:26:04.627 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:26:07.168 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:26:07.356 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:26:07.361 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:26:07.361 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:26:07.964 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:26:11.572 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:26:11.594 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:26:11.598 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:26:13.665 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:26:13.835 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:26:13.838 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:26:13.838 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:26:14.486 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:35:56.237 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:35:56.263 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:35:56.268 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:35:59.010 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:35:59.233 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:35:59.239 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:35:59.239 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:35:59.806 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:36:04.348 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:36:04.369 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:36:04.372 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:36:06.636 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-17 23:36:06.852 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-17 23:36:06.855 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-17 23:36:06.855 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-17 23:36:07.347 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:14:01.802 [main] App - Creating App
+[INFO ] 2020-12-18 00:14:01.834 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:14:01.838 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:14:04.191 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:29:35.394 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:29:35.448 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:29:35.454 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:29:40.658 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:29:41.088 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:29:41.093 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:29:41.093 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:29:41.722 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:52:16.169 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:52:16.211 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:52:16.217 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:52:21.140 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:52:21.503 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:52:21.506 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:52:21.506 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:52:22.117 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:55:00.885 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:55:00.937 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:55:00.942 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:55:05.828 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:55:06.184 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:55:06.187 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:55:06.187 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:55:06.770 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:56:24.118 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:56:24.163 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:56:24.169 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:56:29.049 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:56:29.388 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:56:29.391 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:56:29.391 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:56:29.948 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:58:24.335 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:58:24.377 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:58:24.383 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:58:29.068 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 00:58:29.491 [localhost-startStop-1] App - Creating App
+[INFO ] 2020-12-18 00:58:29.494 [localhost-startStop-1] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 00:58:29.495 [localhost-startStop-1] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 00:58:30.154 [localhost-startStop-1] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 01:39:52.582 [main] App - Creating App
+[INFO ] 2020-12-18 01:39:52.600 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 01:39:52.604 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 01:39:54.779 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 01:55:56.345 [main] App - Creating App
+[INFO ] 2020-12-18 01:55:56.367 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 01:55:56.370 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 01:55:58.838 [main] PersistenceConfig - Setting up Transaction Manager
+[INFO ] 2020-12-18 03:12:48.957 [main] App - Creating App
+[INFO ] 2020-12-18 03:12:48.992 [main] PersistenceConfig - Setting up Session Factory
+[INFO ] 2020-12-18 03:12:49.001 [main] PersistenceConfig - Setting up datasource
+[INFO ] 2020-12-18 03:12:51.806 [main] PersistenceConfig - Setting up Transaction Manager

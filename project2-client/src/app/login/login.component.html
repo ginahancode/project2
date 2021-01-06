@@ -1,0 +1,23 @@
+
+<div class="container">
+    <div class="row">
+        <!-- <div class="col-sm-10 col-md-8 col-lg-6 img-responsive center-block"> -->
+            <img id="logo" class="center" src="../../assets/images/min_logo.png"/>
+        <!-- </div> -->
+    </div>
+</div>
+<form [formGroup]="loginform" #loginUser (ngSubmit)="onSubmit()"
+ class="center col-lg-5 col-md-7 col-sm-9 mt-3">
+    <div class="form-group center">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" formControlName="username" data-toggle="tooltip" 
+      id="username" placeholder="Enter username">
+    </div>
+    <div class="form-group center">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" formControlName="password" data-toggle="tooltip"
+      id="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+    <h6 class="center mt-3">Not a member? <span><a style="color: blue; cursor: pointer; text-decoration: underline;" (click)="goToSignup()">Sign up</a></span></h6>
+</form>

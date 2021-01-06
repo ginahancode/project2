@@ -1,0 +1,33 @@
+<div class="card" style="width: 18rem; display:inline-block;" 
+  [class.currently]="game.status == 'Currently Playing'"
+  [class.completed]="game.status == 'Completed'"
+  [class.onhold]="game.status == 'On Hold'"
+  [class.dropped]="game.status == 'Dropped'"
+  [class.plantoplay]="game.status == 'Plan to Play'"
+  >
+  <img *ngIf="game.coverArt != ''" class="card-img-top" src="https://images.igdb.com/igdb/image/upload/t_1080p/{{game.coverArt}}.jpg" alt="Card image cap">
+  <div class="card-body">
+    
+      <h5 class="card-title">{{game.title}}</h5>
+      <div *ngIf="game.score > 0; else other_score"> 
+       <h6 style="padding-top: 8px;">Critic Score: {{game.score.toFixed(2)}}</h6>
+      </div>
+      <ng-template #other_score><h6 style="margin-top:20px; margin-bottom: 8px;">Critic Score: N/A</h6></ng-template>
+
+      <div *ngIf="game.userScore > 0; else other_userScore"> 
+        <h6 class="py-1">User Score: {{game.userScore}}</h6>
+       </div>
+       <ng-template #other_userScore><h6 style="margin-top:15px; margin-bottom: 10px;">User Score: N/A</h6></ng-template>
+
+      
+    <!-- <h6>Genre(s): {{game.genres}}</h6>
+    <h6>Score: {{game.score}}</h6>
+    <h6>Platforms: {{game.platforms}}</h6>
+    <p class="card-text">{{game.review}}</p>
+    <h5>Status: {{game.status}}</h5>
+    <a href="#" class="btn btn-success">Details</a> -->
+    <app-post-details [game]="game"></app-post-details>
+    <i *ngIf="currentUser.userID == game.userID" class="fa fa-trash" (click)="delete()" style="font-size: 1.5rem; color: rgba(255, 0, 0, 0.658); padding: 2px; float: right;" title="Delete Post" aria-hidden="true"></i>
+  </div>
+</div>
+

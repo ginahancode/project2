@@ -1,0 +1,61 @@
+<div class="navbar navbar-inverse navbar-fixed-left">
+    <ul class="nav navbar-nav">
+        <span style="font-size: 1.5rem; color: white; text-align:center; padding: 6px;">
+
+            <li>
+                <i class="fa fa-home" (click)="goHome()" aria-hidden="true" title="Home"></i>
+            </li>
+            <li>
+                <i class="fa fa-users" (click)="goToSocials()" aria-hidden="true" title="Social"></i>
+            </li>
+            <li>
+                <i class="fa fa-user" (click)="goUserInfo()" aria-hidden="true" title="My Information"></i>
+            </li>
+            <li>
+                <i class="fa fa-sign-out" (click)="logout()" title="Logout" aria-hidden="true"></i>
+            </li>
+        </span>
+    </ul>
+</div>
+
+<app-banner></app-banner>
+<div class="center">
+    <div class="row justify-content-center">
+        <div class="col-lg-10" id="pages">
+            <div class="card-columns">
+                <div *ngFor="let user of users">
+                    <div class="card" (click)="social(user.posts[0].user_id)">
+                        <!-- <img class="card-img-top" src="https://images.igdb.com/igdb/image/upload/t_1080p/{{game.coverArt}}.jpg" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h4 (click)="social(user.posts[0].user_id)">{{user.posts[0].first_name}}</h4>
+                            <hr />
+                            <!-- <div *ngIf="game.score > 0; else other_score"> 
+                         <h6 class="py-1">Score: {{game.score}}</h6>
+                        </div>
+                        <ng-template #other_score><h6 style="margin-top:20px;">Score: N/A</h6></ng-template> -->
+
+                            <div *ngFor="let game of user.posts; let i=index" style="display:inline-block; padding: 5px;">
+                                <img *ngIf="i<6 && (game.cover_art != '' )" 
+                                    src="https://images.igdb.com/igdb/image/upload/t_cover_small/{{game.cover_art}}.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- <div class="card-columns">
+    <div class="card">
+        <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,36 @@
+.card-img-top {
+    
+    object-fit: cover;
+}
+
+.card {
+    margin: 7px;
+    box-shadow: 1px 1px 10px rgb(145, 144, 144);
+    align-items: center;
+}
+
+.card-title {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+
+.currently {
+    border: solid 2px blue;
+}
+
+.completed {
+    border: solid 2px green;
+}
+
+.onhold {
+    border: solid 2px orange;
+}
+
+.dropped {
+    border: solid 2px red;
+}
+
+.plantoplay {
+    border: solid 2px rgb(171, 46, 255);
+}
+

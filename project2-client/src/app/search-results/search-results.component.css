@@ -1,0 +1,11 @@
+#game-results {
+  /* border-top: 20px solid transparent; */
+  box-shadow: 1px 1px 5px rgb(145, 144, 144);
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+}
+
+i:hover {
+  cursor: pointer;
+}

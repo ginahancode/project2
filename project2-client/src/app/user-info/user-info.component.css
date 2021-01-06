@@ -1,0 +1,60 @@
+.info {
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-left: 35px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+
+html {
+    display: block;
+}
+
+.home-container {
+    display: block;
+    margin: 40px;
+}
+
+.btm-nav {
+    color: white !important;
+}
+
+.filter-nav-links {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+
+}
+
+.nav-link.active {
+  color: #5cb85c;
+}
+
+.navbar-fixed-left {
+    width: 38px;
+    position: fixed;
+    margin-top: 210px;
+    border-radius: 0;
+    height: 40%;
+    background-color: black;
+    z-index: 99999;
+  }
+  
+  .navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 20px;
+  }
+  
+  .navbar-fixed-left {
+    padding-left: 0;
+  }
+  
+  /* On using dropdown menu (To right shift popuped) */
+  .navbar-fixed-left .navbar-nav > li > {
+    margin-top: -50px;
+    margin-left: 140px;
+  }
+
+  i:hover {
+    cursor: pointer;
+  }

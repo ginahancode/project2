@@ -1,0 +1,78 @@
+<!-- <a class="btn btn-success btn-lg" (click)="open(content)">Search for Games</a> -->
+
+<i class="fa fa-plus" title="Search Games" (click)="open(content)" aria-hidden="true"></i>
+      
+
+
+<ng-template #content let-modal>
+    <div class="app-modal-window">
+        <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Search for Games</h4>
+            <button type="button" class="close-small" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="checkoutForm" class="form-inline mb-5" (ngSubmit)="onSubmit(checkoutForm.value)">
+                <input formControlName="userInput" class="form-control mr-sm-2" type="search" placeholder="Game Title"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+
+                <!-- <h6>{{currentUser.firstName}}</h6> -->
+
+            </form>
+            <div *ngIf="showAddAlert" class="alert alert-success" role="alert">
+                Game added<button (click)="showAddAlert = !showAddAlert" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div *ngIf="searchResultList">
+                <div>
+                    <div *ngFor="let game of searchResultList">
+                        <div class="row" id="game-results">
+                                <div class="col-2">
+                                    <img *ngIf="game.cover" src='https:{{game.cover.url}}' />
+                                </div>
+                                <div class="col-4 text-center">
+                                    <h5 *ngIf="game.name">{{game.name}}</h5>
+                                </div>
+                                <div class="col-2 text-center">
+                                    <p *ngIf="game.release_dates"> Release Date: {{game.release_dates[0].human}}</p>
+                                </div>
+                                <div class="col-4 center">
+                                    <p *ngIf="game.release_dates">  Platform: {{game.release_dates[0].platform.name}}</p>
+                                    <button class="btn btn-success mr-2" style="float:right" (click)="buttonPost(game.id)">Add</button>
+                                </div>
+                                <!-- release_dates.human, release_dates.platform.name, release_dates.region, platforms.name -->
+                                <!-- we want game title, cover art, release date, platform-->
+                                <!-- add button for each result, pass 'game' forward-->
+                                <!-- Region: {{game.release_dates[0].region}} -->
+  
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <i class="fa fa-arrow-left" style="font-size: 1rem; padding: 8px; color: gray;" (click)="backButton()" aria-hidden="true"></i>
+                    <!-- <button type="button" class="btn btn-secondary" (click)="backButton()">Back</button> -->
+
+                    <i class="fa fa-arrow-right" style="font-size: 1rem; padding: 8px; color:gray;"(click)="forwardButton()" aria-hidden="true"></i>
+
+                    <!-- <button type="button" class="btn btn-secondary" (click)="forwardButton()">Forward</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+
+<div *ngIf="postList">
+    <p>yo</p>
+    <ul>
+        <!-- <div [(ngModel)]="postList"> -->
+        <li *ngFor="let game of postList">
+            <p>{{game.title}}</p>
+        </li>
+    </ul>
+    <!-- </div> -->
+</div>
