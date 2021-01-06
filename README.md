@@ -1,5 +1,7 @@
 # project2 -- Game Pocket
 
+![alt text](https://github.com/kacperdudz/project2/blob/master/project2-client/src/assets/images/banner_min_light.png?raw=true)
+
 ## Project Description
 
 Using the Game Pocket application, gamers can keep track of the video games they've played. 
