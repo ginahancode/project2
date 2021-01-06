@@ -51,3 +51,7 @@ in `/project2/project2-client/src/app`. More info about how to set up the Twitch
 ## Contributors
 
 Gina Han, Jacob Vassas, Kacper Dudzinski
+
+## License
+
+This project does not use a license
